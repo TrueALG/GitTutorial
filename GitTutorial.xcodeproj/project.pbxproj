@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9B3B7F3219F16A400C3D090 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B3B7F2219F16A400C3D090 /* MapForItinerary.swift */; };
 		C9D832E3219C7B510065115A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D832E2219C7B510065115A /* AppDelegate.swift */; };
 		C9D832E5219C7B510065115A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D832E4219C7B510065115A /* ViewController.swift */; };
 		C9D832E8219C7B510065115A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D832E6219C7B510065115A /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9B3B7F2219F16A400C3D090 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 		C9D832DF219C7B500065115A /* GitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D832E2219C7B510065115A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9D832E4219C7B510065115A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		C9D832D6219C7B500065115A = {
 			isa = PBXGroup;
 			children = (
+				C9B3B7F2219F16A400C3D090 /* MapForItinerary.swift */,
 				C9D832E1219C7B500065115A /* GitTutorial */,
 				C9D832F6219C7B530065115A /* GitTutorialTests */,
 				C9D83301219C7B530065115A /* GitTutorialUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				C9D832E5219C7B510065115A /* ViewController.swift in Sources */,
 				C9D832E3219C7B510065115A /* AppDelegate.swift in Sources */,
+				C9B3B7F3219F16A400C3D090 /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H6VGM75KF;
 				INFOPLIST_FILE = GitTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H6VGM75KF;
 				INFOPLIST_FILE = GitTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
